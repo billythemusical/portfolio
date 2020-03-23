@@ -42,7 +42,10 @@ app.get("/api/v1/signs", async (req, res) => {
     }
   });
   
-  
+//**************
+// do we need to change this from localhost to an web IP address since we are deployed to a web server?
+//**************
+
 // Start listening
 app.listen(PORT, () => {
   console.log(`see the magic: http://localhost:${PORT}`);
